@@ -219,7 +219,7 @@ _Observation:_ For YOLOV2, each bounding box contains 4 coordinates (x,y,w,h), p
 The last line gives statistics of the whole batch:  
 
 * **80194**: Number of batches trained so far.  
-**6.186997:** Accumulated lost. The lower the better. You could use this as a reference to stop your training.  
+**6.186997:** Accumulated loss. The lower the better. You could use this as a reference to stop your training.  
 **6.712183 avg**: The average loss (error) for this batch. We expect it to be the lowest as possible. You could also use this as a reference to stop your training.  
 **0.000010 rate**: Learning rate used to update the weights while training this batch.  
 **2.998310 seconds**:  How long it took to train this batch.  
